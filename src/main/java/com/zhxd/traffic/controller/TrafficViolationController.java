@@ -1,14 +1,19 @@
-package com.example.demo.controller;
+package com.zhxd.traffic.controller;
 
-import com.example.demo.service.TrafficViolationService;
-import com.example.demo.service.VisionService;
-import com.example.demo.utils.Md5CaculateUtil;
+import com.zhxd.traffic.service.TrafficViolationService;
+import com.zhxd.traffic.service.VisionService;
+import com.zhxd.traffic.utils.Md5CaculateUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.ByteArrayInputStream;
+/**
+ * @author jijiezh
+ *
+ */
+
 
 @RestController
 @RequestMapping("/traffic")

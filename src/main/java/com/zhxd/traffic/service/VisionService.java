@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.zhxd.traffic.service;
 
 
 import com.alibaba.fastjson.JSON;
@@ -11,7 +11,7 @@ import com.aliyuncs.IAcsClient;
 import com.aliyuncs.ocr.model.v20191230.*;
 import com.aliyuncs.profile.DefaultProfile;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.example.demo.entity.TrafficViolation;
+import com.zhxd.traffic.entity.TrafficViolation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -20,6 +20,10 @@ import org.springframework.stereotype.Service;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.Date;
+/**
+ * @author jijiezh
+ *
+ */
 
 @Service
 @Slf4j

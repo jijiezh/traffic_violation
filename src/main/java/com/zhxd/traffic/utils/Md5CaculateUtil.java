@@ -1,11 +1,14 @@
-package com.example.demo.utils;
+package com.zhxd.traffic.utils;
 
 import org.apache.commons.codec.binary.Hex;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.MessageDigest;
-
+/**
+ * @author jijiezh
+ *
+ */
 
 public class Md5CaculateUtil {
     public static String getMD5(InputStream inputStream) {
