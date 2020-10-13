@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author jijiezh
- *
+ * @since 20200928
+ * @version 1.0
  */
-
 
 @SpringBootApplication
 public class TrafficApplication {

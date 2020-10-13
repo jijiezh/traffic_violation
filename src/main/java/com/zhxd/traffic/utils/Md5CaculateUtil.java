@@ -7,7 +7,8 @@ import java.io.InputStream;
 import java.security.MessageDigest;
 /**
  * @author jijiezh
- *
+ * @since 20200928
+ * @version 1.0
  */
 
 public class Md5CaculateUtil {
